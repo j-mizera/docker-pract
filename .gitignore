@@ -1,0 +1,13 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# This exercise creates directories from user input, they shouldn't be in VC
+/manual-linux-container/**/
+
+.idea/*

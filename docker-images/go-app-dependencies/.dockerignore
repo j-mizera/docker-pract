@@ -1,0 +1,30 @@
+# Ignore Go build artifacts
+*.exe
+*.out
+*.o
+*.a
+*.so
+*.dll
+
+# Ignore binaries and object files
+bin/
+build/
+dist/
+
+# Ignore IDE/editor config files
+*.swp
+*.swo
+.vscode/
+.idea/
+*.iml
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore environment files (security best practice)
+.env
+
+# Ignore Git-related files
+.git/
+.gitignore

@@ -1,6 +1,8 @@
-FROM golang:latest
+FROM golang:1.23.5-alpine
 
-RUN useradd -m appuser
+RUN addgroup -S appuser && adduser -S appuser -G appuser
+
+RUN mkdir /home/appuser/app
 
 WORKDIR /home/appuser/app
 
